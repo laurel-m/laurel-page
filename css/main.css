@@ -103,6 +103,19 @@ html {
    /* set height to 100% - these are important for allowing content to vertically align */
 }
 
+h1 {
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 3.25em;
+    padding-left: 40px;
+}
+
+.name {
+    color: white;
+    font-family: 'Comforter', cursive;
+    font-size: 2.5em;
+}
+
 body {
     height: 100%;
 }
@@ -111,10 +124,9 @@ body {
     /* set the display to flex and use the justify-content & align-items properties to center all child elements on the page */
     align-items: center;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 0;
-    height: 100%;
+    justify-content: space-evenly;
+    padding-left: 40px;
+    padding-right: 40px;
     width: 100%;
 }
 
@@ -122,20 +134,23 @@ body {
     /* set the display to flex and use the justify-content & align-items properties to center the text within the div*/
     align-items: center;
     background:rgba(4, 94, 44, 0.596);
-    color: #fff;
+    border-radius: 10px;
     display: flex;
+    height: 350px;
+    justify-content: center;
+    width: 350px;
+}
+
+#content p {
+    color: #fff;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 300;
     font-size: 2em;
-    justify-content: center;
     line-height: 1.5em;
-    border-radius: 10px;
-    padding: 0px 20px;
-    width: 400px;
-    height: 400px;
+    padding: 0 20px 0 20px;
 }
 
-#content p span {
+#content span {
     font-family: 'Comforter', cursive;
     font-size: 2.075em;
 }
